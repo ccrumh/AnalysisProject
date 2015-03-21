@@ -195,7 +195,7 @@ finalAVGtidyData <- ddply(DFSubjectActivityValues, .(Activity, Subject), numcolw
 
 write.table(finalAVGtidyData, "FinalAVGTidyData.txt", sep="\t", row.names = FALSE, col.names=FALSE)
 
-## The output file is a tidy dataset of 68 columns (Activity, Subject, 66 calculated mean), and 160 rows representing the unique combinations of Activity and Subject values
+## The output file is a tidy dataset of 68 columns (Activity, Subject, 66 calculated mean), and 180 rows representing the unique combinations of Activity and Subject values
 
 ==================================================================
  Study Data credits: 
